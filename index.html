@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link   href="brthday.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            font-family: 'Happy Monkey', cursive;
+            background:linear-gradient(#e5e6dd,rgb(252, 248, 249)) ;
+            
+        }
+        
+        #bff-img{
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; /*this is imprtant for  creating circle in logos*/
+            border: 6px solid #182518;
+            
+        }
+        h1, h2, h4, p{
+            text-shadow: 0 0 1px black;
+        }
+
+        #bday-age, #bday-date{
+            background-color: #efb0c9;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin: 5px 10px;
+        }
+
+        #header{
+            color:dodgerblue;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gift-section{
+            margin-top: 50px;
+        }
+
+        .gift-title{
+            margin-bottom: 10px;
+
+        }
+
+        .gift-hint{
+            margin-top: 0;
+
+        }
+
+        .gift-img{
+            margin: 0 auto;
+            width: 600px;
+            border: 6px solid rgb(225, 145, 145);
+            border-radius: 10px;
+            height: 400px;
+            background-image: url("https://media.istockphoto.com/id/1053404714/photo/birthday-gift-christmas-present-red-box-isolated-on-white.jpg?s=612x612&w=0&k=20&c=w4bmeYI41LC8pcn_5Nw5e2oHoPD-8bx_XPNCfmymLFQ=");
+            background-size: cover;
+        }
+        .gift-img:hover {
+            background-image: url("https://media.giphy.com/media/UvE2iTucKyX4fVwsRP/giphy.gif");
+        }
+
+        #gift-img-genius:hover{
+            background-image: url("https://media.giphy.com/media/aj9MwyAJlqtI9v0B0R/giphy.gif")
+        }
+ 
+        a{
+            color: blue;
+        }
+        .first{
+            width: fit-content;
+            display: flex;
+            align-items: center;
+        }
+    
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1> Today is  BRU'S BIRTH DAY 🎉🎉🎉🎉</h1>
+        <img id="bff-img" src="image.jpg">
+        <h2 id="bday-age">  22 years old</h2>
+        <h4 id="bday-date"> 19/ 05/ 2023</h4>
+
+    </div>
+
+    <div class="gift-section">
+        <h2 class="gift-title">Here's is how happy I am for you Today my sister
+            🥳🥳🥳</h2>
+        <h4 class="gift-hint">(hover over the gift)</h4>
+        <div class="gift-img"></div>
+    </div>
+    <div class="gift-section">
+        <h2 class="gift-title">If I had to describe you with ONE word 👇</h2>
+        <div class="gift-img" id="gift-img-genius"></div>
+    </div>
+
+  
+
+    
+</body>
+</html>
